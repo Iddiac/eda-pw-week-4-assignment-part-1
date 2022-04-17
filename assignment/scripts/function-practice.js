@@ -65,13 +65,10 @@ function find(value,array){
 for(let arrays of array){
   if(arrays===value){
    return true;
-  }
-    else{
-
-    }
-  }
+  }}
   return false;}
   console.log(find("candy",["pumpkin","candy","cake"]));
+  console.log(find("candy",["peanut","cake","lolipop"]));
   
   
   
